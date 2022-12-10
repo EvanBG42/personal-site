@@ -1,0 +1,10 @@
+tutorial: last left off here https://jekyllrb.com/docs/step-by-step/08-blogging/
+
+process: 
+
+1. Writing stuff in Visual studio code
+2. open CMD w/ Ruby
+	a. "jekyll build"
+	b. "jekyll serve"
+	c. navigate to http://127.0.0.1:4000 to see it live
+3. GitHub desktop to update the repo
