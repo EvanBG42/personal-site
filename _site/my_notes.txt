@@ -1,10 +1,15 @@
-tutorial: last left off here https://jekyllrb.com/docs/step-by-step/08-blogging/
+tutorial: last left off here https://jekyllrb.com/docs/step-by-step/09-collections/
 
 process: 
 
 1. Writing stuff in Visual studio code
 2. open CMD w/ Ruby
-	a. "jekyll build"
-	b. "jekyll serve"
-	c. navigate to http://127.0.0.1:4000 to see it live
+	a. navigate to personal-site
+	b. "bundle exec jekyll serve"
+	c. in browser, navigate to http://127.0.0.1:4000 to see it live
+	d. production build in CMD = "JEKYLL_ENV=production bundle exec jekyll build
 3. GitHub desktop to update the repo
+
+
+Deployment & environments:
+ - https://jekyllrb.com/docs/step-by-step/10-deployment/#environments
