@@ -7,9 +7,15 @@ process:
 	a. navigate to personal-site
 	b. "bundle exec jekyll serve"
 	c. in browser, navigate to http://127.0.0.1:4000 to see it live
-	d. production build in CMD = "JEKYLL_ENV=production bundle exec jekyll build
 3. GitHub desktop to update the repo
 
 
 Deployment & environments:
  - https://jekyllrb.com/docs/step-by-step/10-deployment/#environments
+	- In windows: https://stackoverflow.com/a/54011686
+		- prod env  
+			- in src: {% if site.environment == "production" %}
+			- run: "bundle exec jekyll serve"
+		- dev env
+			- in src: {% if site.environment == "development" %}
+			- run: "bundle exec jekyll serve --config _config.yml,_config_dev.yml" (later configs overwrite earlier
