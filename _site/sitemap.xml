@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>/personal-site/2022/12/11/intro.html</loc>
+<loc>http://localhost:4000/personal-site/2022/12/11/intro.html</loc>
 <lastmod>2022-12-11T00:00:00-05:00</lastmod>
 </url>
 <url>
-<loc>/personal-site/about.html</loc>
+<loc>http://localhost:4000/personal-site/about.html</loc>
 </url>
 <url>
-<loc>/personal-site/blog.html</loc>
+<loc>http://localhost:4000/personal-site/blog.html</loc>
 </url>
 <url>
-<loc>/personal-site/</loc>
+<loc>http://localhost:4000/personal-site/</loc>
 </url>
 </urlset>
