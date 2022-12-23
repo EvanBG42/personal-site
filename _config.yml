@@ -4,6 +4,8 @@ environment: production
 url: https://evanbg42.github.io  # the base hostname and protocol for your site, e.g. http://example.com
 baseurl: "/personal-site"    # place folder name if the site is served in a subfolder
 
+theme: minima
+
 defaults:
   - scope:
       path: ""
